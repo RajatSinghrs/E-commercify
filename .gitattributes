@@ -1,0 +1,2 @@
+E-COMMERCE filter=lfs diff=lfs merge=lfs -text
+.angular/cache/** filter=lfs diff=lfs merge=lfs -text

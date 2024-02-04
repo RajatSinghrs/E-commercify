@@ -1,0 +1,17 @@
+ul{  margin: 11px;
+    padding: 0;}
+.footer { position: relative;
+    padding: 0px;
+    text-align: center;
+    margin-top: 120px;
+    bottom: -6px;
+    right: 3px;
+    left: 0;
+    background-color: #fff;}
+.footer ul{    list-style-type: none;
+    display: flex;
+    justify-content: space-between;}
+.footer ul li a{ color: blueviolet;
+    text-decoration: none;}
+p{   margin: 3px;}
+

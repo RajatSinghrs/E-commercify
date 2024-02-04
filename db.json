@@ -1,0 +1,233 @@
+{
+  "seller": [
+    {
+      "name": "Rajat Singh",
+      "email": "rajar123@gmail.com",
+      "password": "abc@123",
+      "id": "1"
+    },
+    {
+      "name": "Ansh",
+      "password": "ansh123",
+      "email": "ansh1234@gmail.com",
+      "id": "2"
+    },
+    {
+      "name": "singh",
+      "password": "singh123",
+      "email": "singhisking123@g.in",
+      "id": "3"
+    },
+    {
+      "name": "Rajat",
+      "password": "123",
+      "email": "rajatsingh265@gmail.com",
+      "id": "4"
+    },
+    {
+      "id": "c5a2",
+      "name": "RajatSinghrs",
+      "password": "RajatSinghrs",
+      "email": "RajatSinghrs@gmail"
+    }
+  ],
+  "products": [
+    {
+      "name": "Iphone 14",
+      "price": "70000",
+      "color": "White",
+      "category": "Mobile",
+      "description": "Iphone ",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": "1"
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "7000",
+      "color": "Black",
+      "category": "Shoes",
+      "description": "A good running shoes",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "id": "2"
+    },
+    {
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Truck",
+      "price": "Toy",
+      "category": "Toys",
+      "color": "Red",
+      "description": "A toy for 5 year old child",
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
+      "id": "3"
+    },
+    { 
+      "name": "Noise Smart Watch",
+      "price": "2000",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "id": "4"
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "id": "6"
+    },
+    {"name": "Levies Jeans",
+    "price": "5000",
+    "category": "Jeans",
+    "color": "blue",
+    "description": "Confirmable jeans for man ",
+    "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+    "id": "6"
+    },
+    {"name": "Levies Jeans",
+    "price": "5000",
+    "category": "Jeans",
+    "color": "blue",
+    "description": "Confirmable jeans for man ",
+    "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+    "id": "6"
+    },
+    {"name": "Levies Jeans",
+    "price": "5000",
+    "category": "Jeans",
+    "color": "blue",
+    "description": "Confirmable jeans for man ",
+    "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+    "id": "6"
+    },
+    {"name": "Levies Jeans",
+    "price": "5000",
+    "category": "Jeans",
+    "color": "blue",
+    "description": "Confirmable jeans for man ",
+    "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+    "id": "6"
+    }
+    
+  ],
+  "users": [
+    {
+      "name": "Rajat singh",
+      "email": "rajatrajat123@rajat.com",
+      "password": "rajat1234",
+      "id": "1"
+    },
+    {
+      "name": "Ansh",
+      "email": "anshch124@123",
+      "password": "ajaje123",
+      "id": "2"
+    },
+    {
+      "name": "Rajat",
+      "email": "rajatsinghishere@gmail.com",
+      "password": "rajatrajat",
+      "id": "3"
+    },
+    {
+      "id": "4"
+    }
+  ],
+  "cart": [
+    {
+      "0": [
+        [
+          [
+            [
+              [
+                [
+                  [
+                    [
+                      [
+                        [
+                          [],
+                          {
+                            "name": "Iphone 14",
+                            "price": "70000",
+                            "color": "White",
+                            "category": "Mobile",
+                            "description": "Iphone ",
+                            "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+                            "id": 1,
+                            "quantity": 2
+                          }
+                        ]
+                      ],
+                      {
+                        "name": "Iphone 14",
+                        "price": "70000",
+                        "color": "White",
+                        "category": "Mobile",
+                        "description": "Iphone ",
+                        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+                        "id": 1,
+                        "quantity": 2
+                      }
+                    ]
+                  ],
+                  {
+                    "name": "Iphone 14",
+                    "price": "70000",
+                    "color": "White",
+                    "category": "Mobile",
+                    "description": "Iphone ",
+                    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+                    "id": 1,
+                    "quantity": 3
+                  }
+                ]
+              ],
+              {
+                "name": "Iphone 14",
+                "price": "70000",
+                "color": "White",
+                "category": "Mobile",
+                "description": "Iphone ",
+                "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+                "id": 1,
+                "quantity": 1
+              }
+            ]
+          ],
+          {
+            "name": "Iphone 14",
+            "price": "70000",
+            "color": "White",
+            "category": "Mobile",
+            "description": "Iphone ",
+            "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+            "id": 1,
+            "quantity": 1
+          }
+        ],
+        {
+          "name": "Iphone 14",
+          "price": "70000",
+          "color": "White",
+          "category": "Mobile",
+          "description": "Iphone ",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+          "id": 1,
+          "quantity": 2
+        }
+      ],
+      "userId": null,
+      "id": "1"
+    }
+  ]
+}

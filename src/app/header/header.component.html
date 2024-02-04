@@ -1,0 +1,54 @@
+<div>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <div class="w-100 d-flex justify-content-between" >
+                <div>
+                    <i class="fa-solid fa-envolope text-light"></i>
+                    <a href="#" class="navbar-sm-brand text-light text-decoration-none">rajatsingh265"&#64;"gmail.com</a>
+                </div>
+                <div class="d-flex">
+                    <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light mx-2"><i class="fab fa-github"></i></a>
+                    <a href="#" class="text-light mx-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<nav class="nav">
+    <h1><a routerLink="">E-commercify</a></h1>
+    <div *ngIf="menuType!=='seller'" class="nav-search">
+        <input type="text" 
+        #searchInput
+        (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search for Products" />
+        <button (click)="submitSearch(searchInput.value)">Search</button>
+        <ul class="suggested-result" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+                <a (mousedown)="redirectToDetails(item.id)"> {{item.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+        <li><a routerLink="seller-auth">Seller</a></li>
+        <li><a routerLink="">Home</a></li>
+        <li><a routerLink="user-auth">Login/Sign-up</a></li>
+        <li><a href="#">Cart({{cartItems}})</a></li>
+    </ul>
+    <ul *ngSwitchCase="'user'">
+        <li><a routerLink="seller-auth">Seller</a></li>
+        <li><a routerLink="">Home</a></li>
+        <li><a>{{userName | titlecase}}</a></li>
+        <li><a routerLink="my-orders" >My Orders</a></li>
+        <li><a (click)="userLogout()">Logout</a></li>
+
+        <li><a [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a></li>
+    </ul>
+    <ul *ngSwitchCase="'seller'">
+        <li><a routerLink="seller-add-product">Add Products</a></li>
+        <li><a routerLink="seller-home">List</a></li>
+        <li><a (click)="logout()">Logout</a></li>
+        <li><a href="#">{{sellerName | titlecase}}</a></li>
+    </ul>
+</div>
+</nav>
